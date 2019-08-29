@@ -1,0 +1,5 @@
+- name: 'master'
+    # https://developer.github.com/v3/repos/branches/#update-branch-protection
+    # Leaving this empty will disable branch protection for this branch.
+    protection:
+      enforce_admins: true
